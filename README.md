@@ -6,6 +6,7 @@ A list of tech events relevant to tech people in Thailand, starting 2018.
 หากมีงาน Tech event ไหนที่ยังไม่ได้อยู่ในปฏิทินนี้ รบกวนช่วยส่ง Pull request มาด้วยครับ ขอบคุณครับ \
 Feel free to send pull requests for missing events, thank you!
 
+[start-calendar]: #
 
 ## January 2018
 
@@ -57,6 +58,8 @@ Dependent type theory เป็นวิธีนึง ซึ่งจะได
 งานนี้คนไทยไปเยอะ (20 กว่าคน) เลยใส่ไว้ในปฏิทินนี้ด้วย
 
 > JSConf.Asia 2018 is a 3 day long celebration of the web technology and design. It is the sixth edition of Southeast Asia’s most influential community event from developers for developers with the aim to educate, inspire and entertain around open source and the web.
+
+[end-calendar]: #
 
 ## Symbol Legend
 
