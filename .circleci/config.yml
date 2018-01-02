@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/src
     docker:
-      - image: circleci/node:8
+      - image: circleci/ruby:2.5.0-node-browsers
     steps:
       - checkout
       - restore_cache:
@@ -21,3 +21,7 @@ jobs:
       - store_artifacts:
           path: ~/src/public
           prefix: public
+      - run:
+          name: pronto
+          command: bundle
+          when: always

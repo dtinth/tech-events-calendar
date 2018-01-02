@@ -1,6 +1,6 @@
 // Generates SVG file from `public/calendar.json`
 
-const data = require('./public/calendar')
+const data = require('../public/calendar')
 const totalWidth = 200
 const totalHeight = 185
 const hPadding = 10
