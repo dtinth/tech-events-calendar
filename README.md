@@ -31,6 +31,24 @@ Feel free to send pull requests for missing events, thank you!
 
 ## January 2018
 
+### <a name="functional-programming-in-python-by-thaipy-jan"></a> 11 (Thu): Functional Programming in python + more: ThaiPy Jan
+
+| | | |
+| --- | --- | --- |
+| 🏷 | Meetup | Python, Functional Programming |
+| 📍 | Bhiraj Tower | EmQuartier, Sukhumvit Road, Klongton Nua, Wattana, Bangkok |
+| ⌚️ | 18:30~20:30 | Meetup |
+| ⌚️ | 20:30++ | Bar Meetup |
+| ✅ | [Meetup.com](https://www.meetup.com/ThaiPy-Bangkok-Python-Meetup/events/245135592/) | Free, Snacks and Drinks provided |
+
+Meetup รายเดือนจากกลุ่ม ThaiPy - Bangkok Python Meetup สำหรับผู้ที่สนใจในภาษา Python ภายในงานจะมีการพูดคุยพบปะในบรรยากาศเป็นกันเอง เพื่อแลกเปลี่ยนความรู้และประสบการณ์ โดยหัวข้อที่จะพูดถึงจะเริ่มตั้งแต่ระดับ Beginner ไปจนถึง Advance
+
+> #1 - "Every language needs its underscore: FP in python" - Alexander Schepanovski.
+>
+> #2 - "TBA" - Emails the event organizer to become a speaker.
+>
+> Monthly meetup for those using python, learning python of just py-curious. Python is one of more popular programming languages in the word and rising further, being used in fields such as web, science, big data, dev-ops and digital entertainment. We to have talks from beginners to advance and provide a friendly atmosphere to meet and network with your fellow pythonistas.
+
 ### <a name="dependent-type-theory-meetup-january-2018"></a> 13 (Sat): Workshop on Formal Verification using Dependent Type Theory in Thai
 
 | | | |
