@@ -31,7 +31,7 @@ Feel free to send pull requests for missing events, thank you!
 
 ## January 2018
 
-### <a name="functional-programming-in-python-by-thaipy-jan"></a> 11 (Thu): Functional Programming in python + more: ThaiPy Jan
+### <a name="functional-programming-in-python-by-thaipy-jan"></a> 11 (Thu): Functional Programming in python and more by ThaiPy Jan
 
 | | | |
 | --- | --- | --- |
