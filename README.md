@@ -42,9 +42,9 @@ Feel free to send pull requests for missing events, thank you!
 
 Meetup รายเดือนจากกลุ่ม ThaiPy - Bangkok Python Meetup สำหรับผู้ที่สนใจในภาษา Python ภายในงานจะมีการพูดคุยพบปะในบรรยากาศเป็นกันเอง เพื่อแลกเปลี่ยนความรู้และประสบการณ์ โดยหัวข้อที่จะพูดถึงจะเริ่มตั้งแต่ระดับ Beginner ไปจนถึง Advance
 
-> #1 - "Every language needs its underscore: FP in python" - Alexander Schepanovski.
+> 1 - "Every language needs its underscore: FP in python" - Alexander Schepanovski.
 >
-> #2 - "TBA" - Emails the event organizer to become a speaker.
+> 2 - "TBA" - Emails the event organizer to become a speaker.
 >
 > Monthly meetup for those using python, learning python of just py-curious. Python is one of more popular programming languages in the word and rising further, being used in fields such as web, science, big data, dev-ops and digital entertainment. We to have talks from beginners to advance and provide a friendly atmosphere to meet and network with your fellow pythonistas.
 
