@@ -37,8 +37,7 @@ Feel free to send pull requests for missing events, thank you!
 | --- | --- | --- |
 | 🏷 | Meetup | Python, Functional Programming |
 | 📍 | Bhiraj Tower | EmQuartier, Sukhumvit Road, Klongton Nua, Wattana, Bangkok |
-| ⌚️ | 18:30~20:30 | Meetup |
-| ⌚️ | 20:30++ | Bar Meetup |
+| ⌚️ | 18:30~20:30++ | Meetup |
 | ✅ | [Meetup.com](https://www.meetup.com/ThaiPy-Bangkok-Python-Meetup/events/245135592/) | Free, Snacks and Drinks provided |
 
 Meetup รายเดือนจากกลุ่ม ThaiPy - Bangkok Python Meetup สำหรับผู้ที่สนใจในภาษา Python ภายในงานจะมีการพูดคุยพบปะในบรรยากาศเป็นกันเอง เพื่อแลกเปลี่ยนความรู้และประสบการณ์ โดยหัวข้อที่จะพูดถึงจะเริ่มตั้งแต่ระดับ Beginner ไปจนถึง Advance
