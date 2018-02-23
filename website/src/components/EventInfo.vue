@@ -117,8 +117,7 @@ export default {
   },
   components: {
     Octicon,
-    EventTags,
-    Markdown
+    EventTags
   }
 }
 </script>
