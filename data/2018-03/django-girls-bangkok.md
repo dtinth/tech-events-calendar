@@ -1,9 +1,9 @@
 ---
 id: django-girls-bangkok-march-2018
-date: '2018-03-10'
+date: '2018-03-24'
 location:
-  title: Bangkok
-  detail: TBA
+  url:  https://www.google.com/maps/place/Learn+Hub/@13.74532,100.5323423,17z/data=!3m1!4b1!4m5!3m4!1s0x30e29ed20f89d211:0x810d7dd9fa79451d!8m2!3d13.74532!4d100.534531
+  title: LearnHub Co-Learning Space
 categories:
   - Workshop
 topics:
