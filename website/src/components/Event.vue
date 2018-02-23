@@ -26,7 +26,7 @@
 
 <script>
 import EventTags from './EventTags'
-
+import Markdown from './Markdown'
 export default {
   props: [ 'event' ],
   methods: {
@@ -45,6 +45,9 @@ export default {
     },
     endDate () {
       return this.formatDate(this.event.end)
+    },
+    summary (){
+      return Markdown.markdown([this.event.summary]);
     },
     href () {
       return `/event/${this.event.id}`
