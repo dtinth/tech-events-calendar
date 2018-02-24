@@ -62,11 +62,10 @@
 </template>
 
 <script>
-import MarkdownIt from 'markdown-it'
 import Octicon from 'vue-octicon/components/Octicon.vue'
 import EventTags from './EventTags'
-
-const md = MarkdownIt()
+import Markdown from './Markdown'
+var markdown = Markdown.markdown
 
 export default {
   props: [ 'event' ],
@@ -110,7 +109,10 @@ export default {
       return `/event/${this.event.id}`
     },
     descriptionHtml () {
-      return md.render('> ' + this.event.summary + '\n\n' + this.event.description)
+      return  Markdown.markdown([this.event.description,this.event.summary])
+    },
+    location(){
+      return Markdown.markdown([this.event.location])
     }
   },
   components: {
