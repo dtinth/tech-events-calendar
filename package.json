@@ -19,6 +19,7 @@
   "private": true,
   "scripts": {
     "build-json": "node scripts/generate-json.js",
+    "build-svg": "node scripts/generate-svg.js",
     "build": "yarn run build-json && node scripts/generate-svg.js && node scripts/generate-ics.js && (cd website && yarn run build) && cp -Rv website/dist/index.html website/dist/static public && node scripts/generate-event-html-files.js",
     "lint": "standard",
     "netlify": "(curl -o- -L https://yarnpkg.com/install.sh | bash) && ~/.yarn/bin/yarn && yarn run build",
