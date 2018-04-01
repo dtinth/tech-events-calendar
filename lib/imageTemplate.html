@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Event image template</title>
+</head>
+<body>
+  <div style="position: absolute; top: 0; left: 0; width: 1200px; height: 1200px; background: url(imageTemplate.png)">
+    <div style="position: absolute; top: 335px; left: 46px; right: 46px; height: 432px; overflow: hidden; font: 80px Arimo; color: #5A4D33">
+      <strong id="event-title">[event title]</strong>
+    </div>
+  </div>
+  <script>
+    function setTitle (text) {
+      document.querySelector('#event-title').textContent = text
+    }
+  </script>
+</body>
+</html>

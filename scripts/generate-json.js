@@ -4,6 +4,11 @@ const path = require('path')
 const parseMarkdown = require('../lib/parseMarkdown')
 const glob = require('glob')
 const mkdirp = require('mkdirp')
+const eventImageGenerator = require('../lib/eventImageGenerator')
+
+process.on('unhandledRejection', (e) => {
+  throw e
+})
 
 function hasError (checks) {
   return checks.some(isError)
@@ -46,9 +51,10 @@ function formatError (checks) {
   return out.join('\n')
 }
 
-function main () {
+async function main () {
   const diagnostic = { errors: [ ] }
   const files = glob.sync('data/*/*.md')
+  await eventImageGenerator.initialize()
   try {
     const events = [ ]
     for (const file of files) {
@@ -63,6 +69,8 @@ function main () {
         const imageFilepath = findImage(file)
         if (imageFilepath) {
           event.image = copyEventImage(imageFilepath, event.id)
+        } else {
+          event.image = await generateEventImage(event)
         }
         if (hasError(checks)) {
           diagnostic.errors.push({
@@ -108,6 +116,7 @@ function main () {
     })
     throw e
   } finally {
+    await eventImageGenerator.destroy()
     require('mkdirp').sync('tmp')
     const path = 'tmp/readme-parse-diagnostic.json'
     fs.writeFileSync(path, JSON.stringify(diagnostic, null, 2))
@@ -156,6 +165,17 @@ function copyEventImage (inFilepath, eventId) {
   console.log(`* Copying image "${outFilepath}"`)
   mkdirp.sync(path.dirname(outFilepath))
   fs.copyFileSync(inFilepath, outFilepath)
+  return outUrl
+}
+
+async function generateEventImage (event) {
+  const outUrl = `event-images/${event.id}-generated-v1.png`
+  const outFilepath = `public/${outUrl}`
+  mkdirp.sync(path.dirname(outFilepath))
+  if (!fs.existsSync(outFilepath)) {
+    console.log(`* Generating image "${outFilepath}"`)
+    await eventImageGenerator.generateImage(event, outFilepath)
+  }
   return outUrl
 }
 
