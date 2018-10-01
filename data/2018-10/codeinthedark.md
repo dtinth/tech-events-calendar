@@ -10,7 +10,7 @@ topics:
   - CSS
 location:
   title: cøde CRAFT Bar & Studio
-  url: https://www.google.co.th/maps/place/c%C3%B8de+CRAFT+Bar+%26+Studio/@13.8065307,100.5223342,15z/data=!4m2!3m1!1s0x0:0xe9eec03b79e68253?sa=X&ved=2ahUKEwic4camq-XdAhUKvo8KHQrmB9sQ_BIwGHoECAoQCw
+  url: https://www.google.com/maps/place/c%C3%B8de+CRAFT+Bar+%26+Studio/@13.8065307,100.5223342,15z/data=!4m2!3m1!1s0x0:0xe9eec03b79e68253?sa=X&ved=2ahUKEwic4camq-XdAhUKvo8KHQrmB9sQ_BIwGHoECAoQCw
 links:
   - type: website
     url: https://www.facebook.com/StupidHackTH/
