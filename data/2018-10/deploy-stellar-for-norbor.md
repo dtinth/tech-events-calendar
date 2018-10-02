@@ -24,11 +24,13 @@ links:
 
 > Norbor tam P'Dome tob, ค่าเข้า BIG 100 บาท (ขี้เกียจขอสปอนเซอร์)
 
-ขอคอนเฟิรอมยอดคนมาหน่อนใยครับ ได้จัดที่จัดทางถูก ใครสนใจจริงๆ ให้คง Going ไว้ ใครกะมาไม่สามารถมาได้แน่แล้ว ให้กด Going ออกก่อนได้เลย ขอบคุณครับ
+ขอคอนเฟิร์มยอดคนมาหน่อยครับ ได้จัดที่จัดทางถูก ใครสนใจจริง ๆ ให้คง Going ไว้ ใครไม่สามารถมาได้แน่แล้ว ให้กด Going ออกก่อนได้เลย ขอบคุณครับ
+
+RSVP - https://www.facebook.com/events/797855753879814/
 
 ### เนื้อหา
 
-1. deploy stellar validator 3 node 
-2. deploy node
+1. Deploy stellar validator 3 node
+2. Deploy node
 3. Transaction ผ่าน Stellar lab
-4. horizon api
+4. Horizon api
