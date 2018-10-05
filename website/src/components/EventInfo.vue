@@ -24,7 +24,7 @@
                 <octicon name="clock"></octicon>
               </span>
               <div class="info-text">
-                <div v-for="t of event.time" class="info-time">
+                <div v-for="t of event.time" :key="t.id" class="info-time">
                   <strong>{{formatTime(t.from)}} ~ {{formatTime(t.to)}}{{t.after ? '++' : ''}}</strong>
                   <span class="info-extended text-gray f6" v-if="t.agenda">{{t.agenda}}</span>
                 </div>
@@ -44,7 +44,7 @@
 
         <nav class="menu mt-4">
           <span class="menu-heading">Links</span>
-          <a v-for="link in event.links" :href="link.url" class="menu-item">
+          <a v-for="link in event.links" :key="link.id" :href="link.url" class="menu-item">
             {{link.title}} <span class="text-gray f6">({{link.type}})</span>
             <span class="info-extended text-gray f6" v-if="link.detail">{{link.detail}}</span>
             <span class="info-extended text-gray f6" v-if="link.price">{{link.price}}</span>

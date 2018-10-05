@@ -1,7 +1,7 @@
 <template>
   <div class="event-tags f6">
-    <span class="event-tag" v-for="category in event.categories">{{category}}</span>
-    <span class="event-tag" v-for="topic in event.topics">{{topic}}</span>
+    <span class="event-tag" v-for="category in event.categories" :key="category.id">{{category}}</span>
+    <span class="event-tag" v-for="topic in event.topics" :key="topic.id">{{topic}}</span>
   </div>
 </template>
 

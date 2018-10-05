@@ -30,12 +30,12 @@
         </li>
       </ul>
     </div>
-    <div class="Box mt-4" v-for="group in eventGroups">
+    <div class="Box mt-4" v-for="group in eventGroups" :key="group.id">
       <div class="Box-header">
         <h3 class="Box-title">{{group.title}}</h3>
       </div>
       <ul>
-        <li class="Box-row" v-for="event in group.events">
+        <li class="Box-row" v-for="event in group.events" :key="event.id">
           <event :event="event"></event>
         </li>
       </ul>

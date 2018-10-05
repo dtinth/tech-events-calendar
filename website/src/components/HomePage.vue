@@ -22,8 +22,8 @@
     </div>
     <div class="Box mt-3" v-if="topUpcomingEvents.length > 0">
       <ul>
-        <li class="Box-row" v-for="event in topUpcomingEvents">
-          <event :event="event"></event>
+        <li class="Box-row" v-for="events in topUpcomingEvents" :key="events.id">
+          <event :event="events"></event>
         </li>
       </ul>
       <div class="Box-footer Box-row--gray text-center" v-if="upcomingEvents.length > topUpcomingEvents.length">
@@ -74,6 +74,7 @@ export default {
         })
     },
     topUpcomingEvents () {
+      console.log(this.upcomingEvents);
       return this.upcomingEvents.slice(0, 5)
     }
   },
